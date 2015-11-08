@@ -84,11 +84,21 @@ Giphy.screensaver('surprise')
 Giphy.random
 ````
 
+To get an image do
+```ruby
+puts Giphy.random.image_url
+```
+
 For getting random gifs with a specific tag:
 
 ````ruby
 Giphy.random('american psycho')
 ````
+To get an image do
+```ruby
+puts Giphy.random('american psycho').image_url
+```
+
 
 #### Artists
 ````ruby
